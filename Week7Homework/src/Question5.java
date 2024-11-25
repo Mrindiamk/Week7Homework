@@ -22,14 +22,14 @@ public class Question5 {
         String rollNumber = scan.nextLine();
 
         double maths; //Define data types to Variable
-        while (true) {
+        while (true) { // Infinity loop until its True
             System.out.println("Enter Maths Marks (Marks should between 0 to 100):");
             maths = scan.nextDouble();
 
             if (maths < 0 || maths > 100) {
                 System.out.println("Invalid Input. Marks should between 0 to 100. Please enter valid Marks again.");
             } else {
-                break;
+                break; // breaking the loop
             }
         }
 
@@ -72,10 +72,8 @@ public class Question5 {
         String grade;
         if (percentage >= 80) {
             grade = "A+";
-
         } else if (percentage >= 60 && percentage <= 79) {
             grade = "A";
-
         } else if (percentage >= 50 && percentage <= 59) {
             grade = "B";
         } else {
