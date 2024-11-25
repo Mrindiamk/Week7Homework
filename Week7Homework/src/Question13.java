@@ -11,7 +11,6 @@ public class Question13 {
 
         System.out.println("Please Enter Your Second Number:");
         int number2 = scan.nextInt();
-        String name = scan.nextLine();
 
         System.out.println("Please Enter Any Symbol from (+,-,/,*): ");
         char symbol = scan.next().charAt(0);
@@ -26,11 +25,6 @@ public class Question13 {
             System.out.println(number1/number2);}
         else {
             System.out.println("INVALID");
-
         }
-
-
-
     }
-
 }
